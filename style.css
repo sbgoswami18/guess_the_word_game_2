@@ -1,0 +1,142 @@
+html {
+    font-size: 62.5%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    line-height: 15vh;
+    /* background-color: #20bf6b; */
+    background-color: lightblue;
+}
+
+h1 {
+    text-align: center;
+    color: whitesmoke;
+    font-size: 5.0rem;
+    letter-spacing: 1.5rem;
+    text-transform: uppercase;
+    font-family: 'Carter One', cursive;
+}
+
+section {
+    height: 85vh;
+    /* background-color: #7bed9f; */
+    background-color: lightpink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gameArea {
+    width: 50%;
+    height: 40.0rem;
+    /* padding: 2.0rem .0rem; */
+    /* background-color: #2ed573; */
+    background-color: lightblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: .0rem .8rem .6rem -.6rem black;
+    font-family: 'Carter One', cursive;
+}
+
+h3 {
+    text-align: center;
+    font-size: 3.0rem;
+}
+
+input {
+    width: 40%;
+    padding: 1.5rem .0rem;
+    margin: 2.0rem .0rem;
+    text-align: center;
+    border-radius: 2.5rem;
+    outline: none;
+    border: none;
+    font-size: 2.0rem;
+    color: black;
+    background-color: #dff9fb;
+}
+
+button {
+    cursor: pointer;
+    font-size: 2.5rem;
+    outline: none;
+    border: #2f3542;
+    border-radius: 2.5rem;
+    margin-top: 1.0rem;
+    /* color: #eb4d4b; */
+    color: rgb(255, 175, 188);
+}
+
+button.btn {
+    font-weight: 600;
+    padding: 1.0rem 2.0rem;
+    margin: .0rem 1rem;
+    background-color: whitesmoke;
+    text-transform: uppercase;
+    /* transition-property: all; */
+    transition-duration: 0.5s;
+}
+
+button.btn:hover,
+button.btn:focus,
+button.btn:active {
+    letter-spacing: .5rem;
+    word-spacing: .2rem;
+    background-color: black;
+
+    color: rgb(229, 15, 15);
+    text-shadow: 0 0 1rem rgb(229, 15, 15),
+        0 0 2rem rgb(229, 15, 15),
+        0 0 4rem rgb(229, 15, 15),
+        0 0 8rem rgb(229, 15, 15),
+        0 0 12rem rgb(229, 15, 15),
+        0 0 16rem rgb(229, 15, 15)
+}
+
+h2 {
+    cursor: pointer;
+    /* background-color: red; */
+    font-size: 3rem;
+    padding: 1rem 2rem;
+    margin-top: 2rem;
+    border: none;
+    outline: none;
+    border-radius: 2.5rem;
+}
+
+/* #idtime {
+    display: none;
+} */
+
+.hidden {
+    display: none;
+}
+
+/* ******************** Responsive ************************** */
+
+@media(max-width:998px) {
+    html {
+        font-size: 55%;
+    }
+}
+
+@media(max-width:768px) {
+    html {
+        font-size: 45%;
+    }
+}
+
+@media(max-width:668px) {
+    html {
+        font-size: 35%;
+    }
+}
